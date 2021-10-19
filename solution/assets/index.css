@@ -28,18 +28,23 @@ main{
     height: 80%;
     margin: auto;
     color: #003d66;
-
 }
+p{
+    margin: 0 0 5rem 0;
+    font-size: 1.5rem;
+    word-spacing: 0.10rem;
+}
+
 .consumers, .business {
     grid-template-columns: repeat(2, 50%);
     word-wrap: break-word;
-    padding:10rem;
+    padding:10rem 10rem 20rem 10rem;
     width: 50%;
 }
-
 .consumers{
     background-color: #FFF3C1;
     border-radius: 1rem 0 0 1rem;
+
 }
 .business{
     background-color: white;
@@ -61,16 +66,12 @@ main{
     max-width: 100%;
     display: flex;
     flex-direction: row;
-}
-
-p{
-    margin: 0 0 5rem 0;
-    font-size: 1.5rem;
-    word-spacing: 0.10rem;
-}
-#phone{
 
 }
-#companies{
 
+.consumers > img{
+    width: 18rem;
+    clip-path: inset(0 0 50% 0);
+    position: absolute;
+    left: 21rem;
 }
