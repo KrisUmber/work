@@ -1,94 +1,30 @@
 body{
-    background-color: #003d66;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    text-align: center;
-    overflow: scroll;
-}
-
-nav{
-    color: white;
-    font-weight: bold;
-    text-align: right;
-    background-image: url("../images/index.png");
-    background-repeat: no-repeat;
-    padding:2rem;
-    line-height: 11rem;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-h1{
+    background-color: black;
+    color: darkgreen;
     font-size: 1rem;
-    font-weight: lighter;
-    margin: 0;
+    line-height: 1.6;
+    align-content: center;
+    text-align: center;
 }
 
 main{
-    display: grid;
-    width: 70%;
-    height: 60%;
-    margin: auto;
-    color: #003d66;
+    width:60%;
+    margin:auto;
+    position:relative;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    min-height: 100%;
+    max-width: 100%;
 }
 
-p{
-    margin: 0 0 5rem 0;
-    font-size: 3rem;
-    word-spacing: 0.10rem;
-}
-
-.consumers, .business {
-    grid-template-columns: repeat(2, 50%);
-    word-wrap: break-word;
-    padding:8rem 10rem 0 10rem;
-    width: 50%;
-}
 .consumers{
-    background-color: #FFF3C1;
-    border-radius: 1rem 0 0 1rem;
+    background-color: navajowhite;
 }
 
 .business{
     background-color: white;
-    border-radius: 0 1rem 1rem 0;
 }
-.business .button{
-    margin-top: 9rem;
-}
-.button, .button a {
-    font-weight: bold;
-    color: #003d66;
-    background-color: #99dbbd;
-    border-radius: 1em;
-    padding:2em;
-    margin: 1.5em;
-}
-
-.container{
-    position: relative;
-    flex: 1;
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.consumers > img{
-    width: 18rem;
-    clip-path: inset(0 0 60% 0);
-    position: absolute;
-    padding-top: 2rem; !important;
-    left: 16%;
-}
-
-.business > img{
-    width: 7rem;
-    margin: 10rem 1rem 0 3rem;
-    display: inline-flex;
-    padding-bottom: 3rem;
-}
-
