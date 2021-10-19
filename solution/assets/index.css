@@ -2,7 +2,7 @@
     .container{
         display: flex;}
     .consumers, .business{
-        width: 80%;}
+        width: 100%;}
 }
 
 * {
@@ -32,7 +32,7 @@ a{
 }
 
 main{
-    width:70rem;
+    width:80%;
     margin:auto;
     align-content: center;
     justify-content: center;
@@ -40,8 +40,7 @@ main{
 
 .container{
     vertical-align: middle;
-    grid-template-columns: repeat(2, 50%);
-    }
+    grid-template-columns: repeat(2, 100%);}
 
 .consumers, .business{
 }
