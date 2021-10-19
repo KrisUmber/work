@@ -81,7 +81,7 @@ p{
     width: 18rem;
     clip-path: inset(0 0 60% 0);
     position: absolute;
-    padding-top: 1rem;
+    padding-top: 2rem; !important;
     left: 16%;
 }
 
