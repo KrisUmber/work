@@ -60,7 +60,7 @@ p{
 .business .button{
     margin-top: 9rem;
 }
-.button {
+.button, .button a {
     font-weight: bold;
     color: #003d66;
     background-color: #99dbbd;
