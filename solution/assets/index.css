@@ -41,17 +41,27 @@ main{
     grid-template-columns: repeat(2, 100%);}
 
 .consumers, .business{
-    padding-top:10vh;
-    padding-bottom: 15vh;
+    padding-top: 10%;
+    padding-bottom: 30%;
 }
 
 .consumers{
     border-radius: 0.55rem 0 0 0.55rem;
     background-color: #ffe8c4;
+    background-image: url("../images/phone.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .business{
     border-radius: 0 0.55rem 0.55rem 0;
-    background-color: white;}
+    background-color: white;
+    background-image: url("../images/Orange_logo.svg"), url("../images/Playmobil_logo.png"), url("../images/EDF_-_Logo_-_Luminus.png");
+    background-repeat: no-repeat;
+    background-position: 20%bottom, 50%bottom, 80%bottom;
+    background-size: 5rem, 10rem, 10rem;
+    background-position-y: 90%;
+}
 
 .button{
     background-color: #99dbbd;
@@ -74,7 +84,6 @@ h1{
 }
 
 p{
-
     word-wrap: break-word;
     position: relative;
     font-size: 2vh;
